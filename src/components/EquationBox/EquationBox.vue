@@ -6,12 +6,8 @@
 </template>
 
 <script>
-import LoadingSpinner from "@impvis/components/src/components/LoadingSpinner";
 export default {
     name:"iv-equation-box",
-    components:{
-        'iv-loading-spinner':LoadingSpinner
-    },
     mounted(){
         this.render();
     },

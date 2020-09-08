@@ -1,7 +1,9 @@
 import * as components from './components'
+import ImpVis from '@impvis/components'
 
 const ImpVisKatex = {
     install(Vue){
+        Vue.use(ImpVis);
         for(const componentName in components){
             const component = components[componentName]
             Vue.component(component.name,component)

@@ -19,7 +19,6 @@
 
 <script>
 import EquationBox from '../EquationBox/EquationBox.vue';
-import HoverText from '@impvis/components/src/components/HoverText';
 
 export default {
     name:"iv-equation-box-advance",

@@ -34,7 +34,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
-    "@impvis/components": "^0.3.1",
+    "@impvis/components": "^0.3.2",
     "katex": "^0.12.0"
   }
 }
