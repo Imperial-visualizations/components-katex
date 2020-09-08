@@ -1,0 +1,40 @@
+{
+  "name": "@impvis/components-katex",
+  "version": "0.1.0",
+  "description": "A set of KaTeX based components, for displaying equations and LaTeX based content",
+  "main": "./dist/impvis-components-katex.js",
+  "unpkg": "./dist/impvis-comonents-katex.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -cw",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imperial-visualizations/components-katex.git"
+  },
+  "keywords": [
+    "katex",
+    "impvis"
+  ],
+  "author": "Robert King",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Imperial-visualizations/components-katex/issues"
+  },
+  "homepage": "https://github.com/Imperial-visualizations/components-katex#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@vue/cli-service": "^4.5.4",
+    "rollup": "^2.26.11",
+    "rollup-plugin-includepaths": "^0.2.4",
+    "rollup-plugin-scss": "^2.6.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "@impvis/components": "^0.3.1",
+    "katex": "^0.12.0"
+  }
+}
