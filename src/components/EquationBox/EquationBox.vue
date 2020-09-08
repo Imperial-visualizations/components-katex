@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import "katex/dist/katex.min.css";
 export default {
     name:"iv-equation-box",
     mounted(){
@@ -29,7 +30,6 @@ export default {
     methods:{
         async render(){
             let katex = await import("katex");
-            await import("katex/dist/katex.min.css");
             //Here v-show MUST be used, because otherwise the equationBox element does not exist in the DOM!
             //An alternate approach would be to set this loaded = true in the line above and then await the next vue update to be sure
             //This method should be more performant though.

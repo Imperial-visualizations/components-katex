@@ -3,6 +3,7 @@ import resolve from "@rollup/plugin-node-resolve"
 import vue from "rollup-plugin-vue"
 import scss from "rollup-plugin-scss"
 import includePaths from "rollup-plugin-includepaths"
+import { terser } from "rollup-plugin-terser"
 const external = [
     'vue',
     '@impvis/components'
@@ -13,6 +14,7 @@ const plugins =[
     commonjs(),
     vue({css:true}),
     scss({output:'./dist/impvis-components-katex.css'}),
+    terser()
 ]
 export default [
     {
