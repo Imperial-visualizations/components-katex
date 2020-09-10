@@ -34,12 +34,10 @@
     "rollup-plugin-vue": "^5.1.9",
     "vue-template-compiler": "^2.6.11"
   },
-  "dependencies": {
-    "katex": "^0.12.0"
-  },
   "peerDependencies": {
     "@impvis/components": "^0.3.2",
-    "vue":"^2.6.12"
+    "vue": "^2.6.12",
+    "katex": "^0.12.0"
   },
   "files": [
     "dist/*",

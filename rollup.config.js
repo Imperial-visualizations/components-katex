@@ -6,7 +6,9 @@ import includePaths from "rollup-plugin-includepaths"
 import { terser } from "rollup-plugin-terser"
 const external = [
     'vue',
-    '@impvis/components'
+    '@impvis/components',
+    'katex',
+    'katex/dist/katex.min.css'
 ]
 const plugins =[
     includePaths({paths:['./']}),
