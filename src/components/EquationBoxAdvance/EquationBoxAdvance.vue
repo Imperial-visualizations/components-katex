@@ -23,8 +23,7 @@ import EquationBox from '../EquationBox/EquationBox.vue';
 export default {
     name:"iv-equation-box-advance",
     components: {
-        "iv-equation-box": EquationBox,
-        "iv-hover-text": HoverText
+        "iv-equation-box": EquationBox
     },
     props: {
         myEquation: {
