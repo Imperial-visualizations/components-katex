@@ -1,6 +1,6 @@
 {
   "name": "@impvis/components-katex",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A set of KaTeX based components, for displaying equations and LaTeX based content",
   "main": "./dist/impvis-components-katex.js",
   "unpkg": "./dist/impvis-comonents-katex.umd.js",
