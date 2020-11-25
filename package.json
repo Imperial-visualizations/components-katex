@@ -38,7 +38,7 @@
     "eslint-plugin-vue": "^6.2.2"
   },
   "peerDependencies": {
-    "@impvis/components": "^0.3.2",
+    "@impvis/components": "^1.0.0",
     "vue": "^2.6.12",
     "katex": "^0.12.0"
   },

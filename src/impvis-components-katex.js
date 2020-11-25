@@ -1,6 +1,5 @@
 import * as components from './components'
-import ImpVis from '@impvis/components'
-
+import ImpVis from '@impvis/components';
 const ImpVisKatex = {
     install(Vue){
         Vue.use(ImpVis);
